@@ -22,7 +22,7 @@ public class TestTimer {
         timer = new Timer();
         timer.schedule(new RemindTask(),
 	               0,        //initial delay
-	               5*1000);  //subsequent rate
+	               CLSConnect.getPollingDelay());  //subsequent rate
     }
 
     class RemindTask extends TimerTask {
@@ -31,7 +31,7 @@ public class TestTimer {
     SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
     String currentTime = sdf.format(cal.getTime());
     
-    String finishTime = "23:50:00";
+    String finishTime = CLSConnect.getFinishTime();
 
 
         public void run() {
