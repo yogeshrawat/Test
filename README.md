@@ -53,8 +53,8 @@ public class TestTimer {
 	    } else {
 	        //toolkit.beep(); 
                 System.out.format("Time's up!%n");
-	        //timer.cancel(); //Not necessary because we call System.exit
-	        System.exit(0);   //Stops the AWT thread (and everything else)
+	        timer.cancel(); //Not necessary because we call System.exit
+	        //System.exit(0);   //Stops the AWT thread (and everything else)
 	    }
         }
     }
