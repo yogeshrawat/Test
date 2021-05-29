@@ -8,6 +8,7 @@ public class BlockingQueue<T> {
     //test 5.1
     //test 5.2
     //test 6.1
+    //test 6.2
     private Queue<T> queue = new LinkedList<>();
     int capacity = 5;
 
