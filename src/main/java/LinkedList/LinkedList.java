@@ -25,7 +25,6 @@ public class LinkedList {
             pointer = pointer.nextNode;
             stringBuffer.append(pointer + " ");
         }
-
         return stringBuffer.toString();
     }
 
