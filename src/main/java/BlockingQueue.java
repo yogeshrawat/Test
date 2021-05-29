@@ -3,6 +3,8 @@ import java.util.Queue;
 
 public class BlockingQueue<T> {
 
+    //test 4.1
+    //test 4.2
     private Queue<T> queue = new LinkedList<>();
     int capacity = 5;
 
