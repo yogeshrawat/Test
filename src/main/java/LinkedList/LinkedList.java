@@ -32,7 +32,6 @@ public class LinkedList {
 
         Node middleNode = head;
         Node fastNode = head;
-
         int length = 0;
 
         while (fastNode.getNext() != null) {
