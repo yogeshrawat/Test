@@ -73,6 +73,5 @@ public class LinkedList {
         public String toString() {
             return (this.data);
         }
-
     }
 }
