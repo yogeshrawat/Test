@@ -57,7 +57,6 @@ public class LinkedList {
             this.data = data;
             nextNode = null;
         }
-
         public void setNext(Node node) {
             this.nextNode = node;
         }
@@ -73,6 +72,5 @@ public class LinkedList {
         public String toString() {
             return (this.data);
         }
-
     }
 }
